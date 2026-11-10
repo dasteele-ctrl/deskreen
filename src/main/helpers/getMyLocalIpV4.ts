@@ -2,7 +2,7 @@ import os from "os";
 
 // Wi-Fi interface patterns for detection and prioritization
 const macosWifiInterfaces = ["en0", "en1"]; // macOS Wi-Fi interfaces (commonly en0, en1, though can also be Ethernet)
-const linuxWifiPrefixes = ["wlan", "wlo", "wlp"]; // Linux Wi-Fi interface prefixes
+const linuxWifiPrefixes = ["wlan", "wlo", "wlp", "wlx"]; // Linux Wi-Fi interface prefixes
 const windowsWifiInterfaces = [
   "Wi-Fi",
   "Wireless LAN adapter Wi-Fi",
